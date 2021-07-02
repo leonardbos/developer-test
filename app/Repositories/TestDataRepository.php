@@ -4,7 +4,7 @@ use App\Repositories\Contracts\TestDataRepositoryInterface;
 
 class TestDataRepository implements TestDataRepositoryInterface
 {
-    private array $decoded;
+    private array $decoded = [''];
 
     public function getCars(): array
     {
